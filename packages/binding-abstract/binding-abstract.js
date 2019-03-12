@@ -7,7 +7,7 @@ const debug = require('debug')('serialport/binding-abstract')
  * @description The `Binding` is how Node-SerialPort talks to the underlying system. By default, we auto detect Windows, Linux and OS X, and load the appropriate module for your system. You can assign `SerialPort.Binding` to any binding you like. Find more by searching at [npm](https://npmjs.org/).
   Prevent auto loading the default bindings by requiring SerialPort with:
   ```js
-  var SerialPort = require('@serialport/stream');
+  var SerialPort = require('@palettegear/serialport-stream');
   SerialPort.Binding = MyBindingClass;
   ```
  */

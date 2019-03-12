@@ -1,5 +1,5 @@
 const childProcess = require('child_process')
-const Readline = require('@serialport/parser-readline')
+const Readline = require('@palettegear/serialport-parser-readline')
 
 // get only serial port names
 function checkPathOfDevice(path) {

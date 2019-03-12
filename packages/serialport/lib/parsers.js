@@ -1,8 +1,8 @@
 module.exports = {
-  ByteLength: require('@serialport/parser-byte-length'),
-  CCTalk: require('@serialport/parser-cctalk'),
-  Delimiter: require('@serialport/parser-delimiter'),
-  Readline: require('@serialport/parser-readline'),
-  Ready: require('@serialport/parser-ready'),
-  Regex: require('@serialport/parser-regex'),
+  ByteLength: require('@palettegear/serialport-parser-byte-length'),
+  CCTalk: require('@palettegear/serialport-parser-cctalk'),
+  Delimiter: require('@palettegear/serialport-parser-delimiter'),
+  Readline: require('@palettegear/serialport-parser-readline'),
+  Ready: require('@palettegear/serialport-parser-ready'),
+  Regex: require('@palettegear/serialport-parser-regex'),
 }

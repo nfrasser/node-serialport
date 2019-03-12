@@ -5,7 +5,7 @@ if (!port) {
   process.exit(1)
 }
 
-// var Binding = require('@serialport/binding-mock');
+// var Binding = require('@palettegear/serialport-binding-mock');
 // Binding.createPort(port);
 const Binding = require('../').Binding
 

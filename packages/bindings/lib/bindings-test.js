@@ -46,7 +46,7 @@ const readyData = Buffer.from('READY')
 
 // Test our mock binding and the binding for the platform we're running on
 bindingsToTest.forEach(bindingName => {
-  const Binding = bindingName === 'mock' ? require('@serialport/binding-mock') : require(`./${bindingName}`)
+  const Binding = bindingName === 'mock' ? require('@palettegear/serialport-binding-mock') : require(`./${bindingName}`)
   let testPort = process.env.TEST_PORT
 
   if (bindingName === 'mock') {

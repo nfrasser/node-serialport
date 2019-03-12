@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-const bindings = require('@serialport/bindings')
+const bindings = require('@palettegear/serialport-bindings')
 const { version } = require('../package.json')
 const args = require('commander')
 

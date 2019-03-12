@@ -4,7 +4,7 @@ chai.use(require('chai-subset'))
 const assert = chai.assert
 
 const SerialPort = require('./stream')
-const MockBinding = require('@serialport/binding-mock')
+const MockBinding = require('@palettegear/serialport-binding-mock')
 
 describe('SerialPort', () => {
   let sandbox

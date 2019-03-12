@@ -1,4 +1,4 @@
-const DelimiterParser = require('@serialport/parser-delimiter')
+const DelimiterParser = require('@palettegear/serialport-parser-delimiter')
 
 /**
  *  A transform stream that emits data after a newline delimiter is received.
@@ -6,7 +6,7 @@ const DelimiterParser = require('@serialport/parser-delimiter')
  * @extends DelimiterParser
  * @example
 const SerialPort = require('serialport')
-const Readline = require('@serialport/parser-readline')
+const Readline = require('@palettegear/serialport-parser-readline')
 const port = new SerialPort('/dev/tty-usbserial1')
 const parser = port.pipe(new Readline({ delimiter: '\r\n' }))
 parser.on('data', console.log)

@@ -1,5 +1,5 @@
 {
-  "name": "@serialport/terminal",
+  "name": "@palettegear/serialport-terminal",
   "version": "1.1.4",
   "main": "lib/terminal.js",
   "bin": {

@@ -1,5 +1,5 @@
 {
-  "name": "@serialport/repl",
+  "name": "@palettegear/serialport-repl",
   "version": "1.1.4",
   "main": "lib/repl.js",
   "bin": {

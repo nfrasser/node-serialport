@@ -9,7 +9,7 @@ const Transform = require('stream').Transform
  * @summary A transform stream that emits data as a buffer after not receiving any bytes for the specified amount of time.
  * @example
 const SerialPort = require('serialport')
-const InterByteTimeout = require('@serialport/parser-inter-byte-timeout')
+const InterByteTimeout = require('@palettegear/serialport-parser-inter-byte-timeout')
 const port = new SerialPort('/dev/tty-usbserial1')
 const parser = port.pipe(new InterByteTimeout({interval: 30}))
 parser.on('data', console.log) // will emit data if there is a pause between packets greater than 30ms

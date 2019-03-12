@@ -150,7 +150,7 @@ const LearnHow = () => (
         content: `
 \`\`\`js
 const SerialPort = require('serialport')
-const Readline = require('@serialport/parser-readline')
+const Readline = require('@palettegear/serialport-parser-readline')
 const port = new SerialPort(path, { baudRate: 256000 })
 
 const parser = new Readline()

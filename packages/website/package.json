@@ -1,5 +1,5 @@
 {
-  "name": "@serialport/website",
+  "name": "@palettegear/serialport-website",
   "private": true,
   "scripts": {
     "examples": "docusaurus-examples",

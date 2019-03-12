@@ -7,7 +7,7 @@ const Transform = require('stream').Transform
  * @extends Transform
  * @example
 const SerialPort = require('serialport')
-const Regex = require('@serialport/parser-regex')
+const Regex = require('@palettegear/serialport-parser-regex')
 const port = new SerialPort('/dev/tty-usbserial1')
 const parser = port.pipe(new Regex({ regex: /[\r\n]+/ }))
 parser.on('data', console.log)

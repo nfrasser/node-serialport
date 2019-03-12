@@ -1,5 +1,5 @@
 {
-  "name": "@serialport/binding-abstract",
+  "name": "@palettegear/serialport-binding-abstract",
   "version": "2.0.4",
   "main": "binding-abstract.js",
   "keywords": [

@@ -1,5 +1,5 @@
 const binding = require('bindings')('bindings.node')
-const AbstractBinding = require('@serialport/binding-abstract')
+const AbstractBinding = require('@palettegear/serialport-binding-abstract')
 const promisify = require('./util').promisify
 const serialNumParser = require('./win32-sn-parser')
 

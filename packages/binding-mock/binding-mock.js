@@ -1,4 +1,4 @@
-const AbstractBinding = require('@serialport/binding-abstract')
+const AbstractBinding = require('@palettegear/serialport-binding-abstract')
 const debug = require('debug')('serialport/binding-mock')
 
 let ports = {}

@@ -1,5 +1,5 @@
-const SerialPort = require('@serialport/stream')
-const Binding = require('@serialport/bindings')
+const SerialPort = require('@palettegear/serialport-stream')
+const Binding = require('@palettegear/serialport-bindings')
 const parsers = require('./parsers')
 
 /**

@@ -1,5 +1,5 @@
 {
-  "name": "@serialport/{{dashCase name}}",
+  "name": "@palettegear/serialport-{{dashCase name}}",
   "version": "1.0.0",
   "main": "lib/{{dashCase name}}.js",
   "dependencies": {
