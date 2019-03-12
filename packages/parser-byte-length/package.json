@@ -1,6 +1,6 @@
 {
   "name": "@palettegear/serialport-parser-byte-length",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "main": "byte-length.js",
   "engines": {
     "node": ">=6.0.0"

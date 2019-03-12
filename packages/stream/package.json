@@ -1,9 +1,9 @@
 {
   "name": "@palettegear/serialport-stream",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "main": "stream.js",
   "dependencies": {
-    "@palettegear/serialport-binding-mock": "^2.0.4",
+    "@palettegear/serialport-binding-mock": "^2.0.5",
     "debug": "^4.1.0"
   },
   "engines": {

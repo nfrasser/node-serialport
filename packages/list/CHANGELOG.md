@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.2.0 (2019-03-12)
+
+
+### Features
+
+* move cli tools to their own packages ([#1664](https://github.com/node-serialport/node-serialport/issues/1664)) ([103498e](https://github.com/node-serialport/node-serialport/commit/103498e)), closes [#1659](https://github.com/node-serialport/node-serialport/issues/1659)
+
+
+
+
+
+
 ## [1.1.4](https://github.com/node-serialport/node-serialport/compare/@serialport/list@1.1.3...@serialport/list@1.1.4) (2019-01-24)
 
 **Note:** Version bump only for package @serialport/list
