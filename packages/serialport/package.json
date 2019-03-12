@@ -1,6 +1,6 @@
 {
   "name": "@palettegear/serialport",
-  "version": "7.2.0",
+  "version": "7.3.0",
   "description": "Node.js package to access serial ports. Linux, OSX and Windows. Welcome your robotic JavaScript overlords. Better yet, program them!",
   "main": "lib",
   "repository": {
@@ -40,15 +40,15 @@
     }
   ],
   "dependencies": {
-    "@palettegear/serialport-binding-mock": "^2.0.5",
-    "@palettegear/serialport-bindings": "^2.0.8",
-    "@palettegear/serialport-parser-byte-length": "^2.0.3",
-    "@palettegear/serialport-parser-cctalk": "^2.0.3",
-    "@palettegear/serialport-parser-delimiter": "^2.0.3",
-    "@palettegear/serialport-parser-readline": "^2.0.3",
-    "@palettegear/serialport-parser-ready": "^2.0.3",
-    "@palettegear/serialport-parser-regex": "^2.0.3",
-    "@palettegear/serialport-stream": "^2.0.5",
+    "@palettegear/serialport-binding-mock": "^2.0.6",
+    "@palettegear/serialport-bindings": "^2.0.9",
+    "@palettegear/serialport-parser-byte-length": "^2.0.4",
+    "@palettegear/serialport-parser-cctalk": "^2.0.4",
+    "@palettegear/serialport-parser-delimiter": "^2.0.4",
+    "@palettegear/serialport-parser-readline": "^2.0.4",
+    "@palettegear/serialport-parser-ready": "^2.0.4",
+    "@palettegear/serialport-parser-regex": "^2.0.4",
+    "@palettegear/serialport-stream": "^2.0.6",
     "debug": "^4.1.0"
   },
   "engines": {

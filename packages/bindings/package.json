@@ -1,20 +1,20 @@
 {
   "name": "@palettegear/serialport-bindings",
-  "version": "2.0.8",
+  "version": "2.0.9",
   "main": "lib",
   "keywords": [
     "serialport-binding"
   ],
   "dependencies": {
-    "@palettegear/serialport-binding-abstract": "^2.0.5",
-    "@palettegear/serialport-parser-readline": "^2.0.3",
+    "@palettegear/serialport-binding-abstract": "^2.0.6",
+    "@palettegear/serialport-parser-readline": "^2.0.4",
     "bindings": "^1.3.0",
     "debug": "^4.1.0",
     "nan": "^2.12.1",
     "prebuild-install": "^5.2.1"
   },
   "devDependencies": {
-    "@palettegear/serialport-binding-mock": "^2.0.5"
+    "@palettegear/serialport-binding-mock": "^2.0.6"
   },
   "engines": {
     "node": ">=6.0.0"

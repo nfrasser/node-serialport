@@ -1,9 +1,9 @@
 {
   "name": "@palettegear/serialport-parser-readline",
   "main": "readline.js",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "dependencies": {
-    "@palettegear/serialport-parser-delimiter": "^2.0.3"
+    "@palettegear/serialport-parser-delimiter": "^2.0.4"
   },
   "engines": {
     "node": ">=6.0.0"
