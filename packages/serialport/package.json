@@ -1,5 +1,5 @@
 {
-  "name": "serialport",
+  "name": "@palettegear/serialport",
   "version": "7.1.4",
   "description": "Node.js package to access serial ports. Linux, OSX and Windows. Welcome your robotic JavaScript overlords. Better yet, program them!",
   "main": "lib",
